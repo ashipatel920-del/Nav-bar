@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+#main{
+    width:100%;
+    height: 100%;
+    display:flex;
+    background-color:rgb(222, 199, 202);
+    justify-content: center;
+}
+#main #layer1{
+    width: 39%;
+    height: 7%;
+    background-color:white;
+    margin-top: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left:14.8px;
+    gap: 12px;
+}
+#layer1 img{
+    width :80px;
+}
+#main #layer2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 471px;
+    gap: 12px;
+}
+#layer2 img{
+    width :46px;
+    margin-top:50px;
+    margin-right:490px;
+}
+#main #layer3{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 122px;
+    gap: 12px;
+}
+#layer3 img{
+    width :37px;
+    margin-top:45.9px;
+}
+#main #layer4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    gap: 12px;
+}
+#layer4 img{
+    width : 52px;
+    margin-top:43px;
+    margin-left:104px;
+
+}
+#main #layer5{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    gap: 12px;
+}
+#layer5 img{
+    width : 49px;
+    margin-top:40px;
+    margin-left:240px;
+}
+#main #layer6{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    gap: 12px;
+}
+#layer6 img{
+    width : 45px;
+    margin-top:39px;
+    margin-left:370px;
+}
+#main #layer7{
+    position: absolute;
+    left: 574px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#layer7 img{
+    width : 143px;
+    height: auto;
+    margin-top: 45px;
+}
+#main #layer8{
+    position: absolute;
+    /* left: 574px; */
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+#layer8 img{
+    width : 1600px;
+    height: auto;
+    margin-top: 120px;
+    opacity: rgb(255, 224, 224);
+}
